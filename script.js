@@ -18,6 +18,7 @@ const squares = ()=>{
 
 document.getElementById("squares").addEventListener('click',()=>{
     squaresInterval = setInterval(squares,1000)
+    stopTables()
 })
 
 //
