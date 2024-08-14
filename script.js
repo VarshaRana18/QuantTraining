@@ -21,7 +21,7 @@ document.getElementById("squares").addEventListener('click',()=>{
     stopTables()
 })
 
-//
+//Functions for stopping .... 
 const stopTables = () => {
     clearInterval(tablesInterval)
 }
