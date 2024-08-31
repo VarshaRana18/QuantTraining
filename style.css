@@ -1,0 +1,27 @@
+#container{
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+}
+#question{
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+}
+#buttons{
+    display: flex;align-items: center;justify-content: center;
+}
+#answer-space{
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+#answer{    
+    /* color: white; */
+    color:#1e7ccb;
+    height: 20vh;
+    border: 2px solid #d0dfeb;
+    margin-top: 40vh;
+    width: 20vh;
+    border-radius: 100px;
+}
+#answer:hover{
+    color: #1e7ccb;
+}
