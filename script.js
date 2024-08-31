@@ -30,7 +30,7 @@ document.getElementById("squares").addEventListener('click',()=>{
 
 //Button Cubes till 15
 const cubes = ()=>{
-    let num = Math.floor(Math.random()*25)+1
+    let num = Math.floor(Math.random()*15)+1
     document.getElementById("question").innerText = num
     document.getElementById("answer").innerText = num * num * num
 }
